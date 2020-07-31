@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('Test02 !');
+    res.send('Test03 !');
 });
 
 app.get('/start', function(req, res){
